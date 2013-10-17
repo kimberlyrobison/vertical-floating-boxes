@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Floating Boxes</title>
+<style type="text/css">
+.container {
+	margin: 0 auto;
+	max-width: 1240px;
+	}
+#items {
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 5px 10px;
+	text-align: center;
+	column-count: auto;
+	column-width: 300px;
+	column-gap: 10px;
+	-moz-column-count: auto;
+	-moz-column-width: 300px;
+	-moz-column-gap: 10px;
+	-webkit-column-count: auto;
+	-webkit-column-width: 300px;
+	-webkit-column-gap: 10px;
+	background-color: #000;
+	}
+.small, .large {
+	display: inline-block;
+	width: 300px;
+	margin: 5px 0;
+	}
+.small {
+	height: 150px;
+	background-color: #09F;
+	}
+.large {
+	height: 310px;
+	background-color: #66C;
+	}
+</style>
+</head>
+<body>
+<div class="container">
+<div id="items">
+<div class="small">1 small</div>
+<div class="small">2 small</div>
+<div class="large">3 large</div>
+<div class="large">4 large</div>
+<div class="large">5 large</div>
+<div class="small">6 small</div>
+<div class="small">7 small</div>
+<div class="small">8 small</div>
+<div class="small">9 small</div>
+<div class="small">10 small</div>
+<div class="small">11 small</div>
+</div>
+</div><!-- end container -->
+</body>
+</html>
